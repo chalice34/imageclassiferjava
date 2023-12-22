@@ -63,7 +63,6 @@ public class MainActivity extends AppCompatActivity {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }*/
-
         BitmapDrawable bitmapDrawable=(BitmapDrawable)imagev.getDrawable();
         Bitmap bitmap3=bitmapDrawable.getBitmap();
 
